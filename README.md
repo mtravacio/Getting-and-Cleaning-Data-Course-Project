@@ -16,9 +16,13 @@ Project steps
 4- A final dataset with the average of each variable for each activity and each subject was created.
 
 This repository contains the following files:
+
 README.md: Provides an overview of Getting and cleaning data Course project
+
 CodeBook.md: This is the code book, which describes the contents of the dataset
+
 run_analysis.R: This is the R script that was used to create the dataset
+
 tidy_data.txt: This file contains the final dataset
 
 
