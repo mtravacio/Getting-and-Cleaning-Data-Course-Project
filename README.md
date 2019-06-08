@@ -16,7 +16,7 @@ The obtained dataset were randomly partitioned into two sets, where 70% of the v
 - Activities and variables were appropriately named.  
 - A final dataset with the average of each variable for each activity and each subject was created.  
 
-### This repository contains the following files
+## This repository contains the following files
 - **README.md:** Provides an overview of Getting and cleaning data Course project  
 - **CodeBook.md:** This is the code book, which describes the contents of the dataset  
 - **run_analysis.R:** This is the R script that was used to create the dataset  
