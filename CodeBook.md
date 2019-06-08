@@ -41,7 +41,7 @@ After transformations to clean up the data, a final dataset was stored in the **
 The original dataset contained coded varible names that were relabeled to made their names more descriptive.
 Variables are either the mean of the original values, expressed as "mean()" or the standard deviation, expressed as "std()".  
 Each posible measurement is provied in a 3 axial model: -X, -Y, -Z  
-####1- Time domain variables begin with "time":  
+#### 1- Time domain variables begin with "time":  
 **Signal based on the body of the participant:**  
 - timeBodyAccelerometer-mean()-X, -Y, -Z and timeBodyAccelerometer-std()-X, -Y, -Z  
 - timeBodyAccelerometerJerk-mean()-X, -Y, -Z and timeBodyAccelerometerJerk-std()-X, -Y, -Z; Jerk indicates a sudden movement of the subject  
@@ -51,7 +51,7 @@ Each posible measurement is provied in a 3 axial model: -X, -Y, -Z
 - timeGravityAccelerometer-mean()-X, -Y, -Z  
 - timeGravityAccelerometer-std()-X, -Y, -Z  
 
-####2- Frequency domain varibles begin with "frequency":  
+#### 2- Frequency domain varibles begin with "frequency":  
 
 
 
