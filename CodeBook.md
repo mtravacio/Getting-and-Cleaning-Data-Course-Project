@@ -18,7 +18,7 @@ Briefly, A group of 30 volunteers aged 19 to 48 years performed six activities w
 - standing  
 - laying  
 
-This smartphne has an accelerometer and a gyroscope embedded to capture 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz.
+This smartphone has an accelerometer and a gyroscope embedded to capture 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz.
 The obtained dataset has been randomly partitioned into two sets:
 - training data (70% of the volunteers)  
 - test data (30% of the volunteers)
@@ -38,38 +38,38 @@ After transformations to clean up the data, a final dataset was stored in the **
 - STANDING: subject was standing  
 - LAYING: sugjects was laying  
 
-The original dataset contained coded varible names that were relabeled to made their names more descriptive.
-Variables are either the mean of the original values, expressed as "mean()" or the standard deviation, expressed as "std()".  
-Some measurement are provied in a 3 axial model: -X, -Y, -Z.  
+The original dataset contained coded variable names that were relabeled to made their names more descriptive.
+Variables are either the mean of the original values, expressed as "mean" or the standard deviation, expressed as "standardDeviation".  
+Some measurements are provied in a 3 axial model: -X, -Y, -Z.  
 "Jerk" indicates a sudden movement of the subject  
-"Gyroscope" indicates that the signal was captured with the smartphone gyroscope  
+"Gyroscope" indicates that the signal was captured with the smartphone gyroscope. Similarly, "Accelerometer" indicates that the signal was captured with the smartphone accelerometer.
 "Magnitude"  
 
 #### 1- Time domain variables begin with "time":  
 **Signal based on the body of the participant:**  
-- timeBodyAccelerometer-mean()-X, -Y, -Z and timeBodyAccelerometer-std()-X, -Y, -Z  
-- timeBodyAccelerometerJerk-mean()-X, -Y, -Z and timeBodyAccelerometerJerk-std()-X, -Y, -Z
-- timeBodyGyroscope-mean()-X, -Y, -Z and timeBodyGyroscope-std()-X, -Y, -Z
-- timeBodyGyroscopeJerk-mean()-X, -Y, -Z and timeBodyGyroscopeJerk-std()-X, -Y, -Z  
-- timeBodyAccelerometerMagnitude-mean()  and timeBodyAccelerometerMagnitude-std()  
-- timeBodyAccelerometerJerkMagnitude-mean() and timeBodyAccelerometerJerkMagnitude-std()  
-- timeBodyGyroscopeMagnitude-mean() and timeBodyGyroscopeMagnitude-std()  
-- timeBodyGyroscopeJerkMagnitude-mean() and timeBodyGyroscopeJerkMagnitude-std()  
+- timeBodyAccelerometer-mean-X, -Y, -Z and timeBodyAccelerometer-standardDeviation-X, -Y, -Z  
+- timeBodyAccelerometerJerk-mean-X, -Y, -Z and timeBodyAccelerometerJerk-standardDeviation-X, -Y, -Z  
+- timeBodyGyroscope-mean-X, -Y, -Z and timeBodyGyroscope-standardDeviation-X, -Y, -Z  
+- timeBodyGyroscopeJerk-mean-X, -Y, -Z and timeBodyGyroscopeJerk-standardDeviation-X, -Y, -Z  
+- timeBodyAccelerometerMagnitude-mean  and timeBodyAccelerometerMagnitude-standardDeviation  
+- timeBodyAccelerometerJerkMagnitude-mean and timeBodyAccelerometerJerkMagnitude-standardDeviation  
+- timeBodyGyroscopeMagnitude-mean and timeBodyGyroscopeMagnitude-standardDeviation  
+- timeBodyGyroscopeJerkMagnitude-mean and timeBodyGyroscopeJerkMagnitude-standardDeviation  
 
 **Signal based on the gravity**  
-- timeGravityAccelerometer-mean()-X, -Y, -Z  and  timeGravityAccelerometer-std()-X, -Y, -Z  
-- timeGravityAccelerometerMagnitude-mean() and timeGravityAccelerometerMagnitude-std()  
+- timeGravityAccelerometer-mean()-X, -Y, -Z  and  timeGravityAccelerometer-standardDeviation-X, -Y, -Z  
+- timeGravityAccelerometerMagnitude-mean() and timeGravityAccelerometerMagnitude-standardDeviation  
   
 
   
 #### 2- Frequency domain varibles begin with "frequency":  
-- frequencyBodyAccelerometer-mean()-X, -Y, -Z and frequencyBodyAccelerometer-std()-X, -Y, -Z  
-- frequencyBodyAccelerometerJerk-mean()-X, -Y, -Z and frequencyBodyAccelerometerJerk-std()-X, -Y, -Z  
-- frequencyBodyGyroscope-mean()-X, -Y, -Z and frequencyBodyGyroscope-std()-X, -Y, -Z  
-- frequencyBodyAccelerometerMagnitude-mean() and frequencyBodyAccelerometerMagnitude-std()  
-- frequencyBodyAccelerometerJerkMagnitude-mean() and frequencyBodyAccelerometerJerkMagnitude-std()  
-- frequencyBodyGyroscopeMagnitude-mean() and frequencyBodyGyroscopeMagnitude-std()  
-- frequencyBodyGyroscopeJerkMagnitude-mean() and frequencyBodyGyroscopeJerkMagnitude-std()
+- frequencyBodyAccelerometer-mean-X, -Y, -Z and frequencyBodyAccelerometer-standardDeviation-X, -Y, -Z  
+- frequencyBodyAccelerometerJerk-mean-X, -Y, -Z and frequencyBodyAccelerometerJerk-standardDeviation-X, -Y, -Z  
+- frequencyBodyGyroscope-mean-X, -Y, -Z and frequencyBodyGyroscope-standardDeviation-X, -Y, -Z  
+- frequencyBodyAccelerometerMagnitude-mean and frequencyBodyAccelerometerMagnitude-standardDeviation  
+- frequencyBodyAccelerometerJerkMagnitude-mean and frequencyBodyAccelerometerJerkMagnitude-standardDeviation  
+- frequencyBodyGyroscopeMagnitude-mean and frequencyBodyGyroscopeMagnitude-standardDeviation  
+- frequencyBodyGyroscopeJerkMagnitude-mean and frequencyBodyGyroscopeJerkMagnitude-standardDeviation
 
 
 ## 3. Transformation
