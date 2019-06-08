@@ -9,10 +9,14 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. 
 The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
-Project steps
+Project steps:
+
 1- Data from training and test sets were merged to create one data set.
+
 2- Measurements on the mean and standard deviation for each measurement were extracted
+
 3- Activities and variables were appropriately named.
+
 4- A final dataset with the average of each variable for each activity and each subject was created.
 
 This repository contains the following files:
