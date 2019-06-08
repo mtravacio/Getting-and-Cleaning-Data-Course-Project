@@ -52,19 +52,24 @@ Some measurement are provied in a 3 axial model: -X, -Y, -Z.
 - timeBodyGyroscope-mean()-X, -Y, -Z and timeBodyGyroscope-std()-X, -Y, -Z
 - timeBodyGyroscopeJerk-mean()-X, -Y, -Z and timeBodyGyroscopeJerk-std()-X, -Y, -Z  
 - timeBodyAccelerometerMagnitude-mean()  and timeBodyAccelerometerMagnitude-std()  
-- timeGravityAccelerometerMagnitude-mean() and timeGravityAccelerometerMagnitude-std()  
 - timeBodyAccelerometerJerkMagnitude-mean() and timeBodyAccelerometerJerkMagnitude-std()  
 - timeBodyGyroscopeMagnitude-mean() and timeBodyGyroscopeMagnitude-std()  
 - timeBodyGyroscopeJerkMagnitude-mean() and timeBodyGyroscopeJerkMagnitude-std()  
 
-
-
 **Signal based on the gravity**  
 - timeGravityAccelerometer-mean()-X, -Y, -Z  and  timeGravityAccelerometer-std()-X, -Y, -Z  
+- timeGravityAccelerometerMagnitude-mean() and timeGravityAccelerometerMagnitude-std()  
+  
 
-
+  
 #### 2- Frequency domain varibles begin with "frequency":  
-
+- frequencyBodyAccelerometer-mean()-X, -Y, -Z and frequencyBodyAccelerometer-std()-X, -Y, -Z  
+- frequencyBodyAccelerometerJerk-mean()-X, -Y, -Z and frequencyBodyAccelerometerJerk-std()-X, -Y, -Z  
+- frequencyBodyGyroscope-mean()-X, -Y, -Z and frequencyBodyGyroscope-std()-X, -Y, -Z  
+- frequencyBodyAccelerometerMagnitude-mean() and frequencyBodyAccelerometerMagnitude-std()  
+- frequencyBodyAccelerometerJerkMagnitude-mean() and frequencyBodyAccelerometerJerkMagnitude-std()  
+- frequencyBodyGyroscopeMagnitude-mean() and frequencyBodyGyroscopeMagnitude-std()  
+- frequencyBodyGyroscopeJerkMagnitude-mean() and frequencyBodyGyroscopeJerkMagnitude-std()
 
 
 ## 3. Transformation
