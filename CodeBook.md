@@ -38,6 +38,24 @@ After transformations to clean up the data, a final dataset was stored in the **
 - STANDING: subject was standing  
 - LAYING: sugjects was laying  
 
+The original dataset contained coded varible names that were relabeled to made their names more descriptive.
+Variables are either the mean of the original values, expressed as "mean()" or the standard deviation, expressed as "std()". Each posible measurement is provied in a 3 axial model: -X, -Y, -Z
+__1- Time domain variables begin with "time":__  
+Signal based on the body of the participant:
+timeBodyAccelerometer-mean()-X, -Y, -Z and timeBodyAccelerometer-std()-X, -Y, -Z
+
+timeBodyAccelerometerJerk-mean()-X, -Y, -Z and timeBodyAccelerometerJerk-std()-X, -Y, -Z; Jerk indicates a sudden movement of the subject
+
+timeBodyGyroscope-mean()-X, -Y, -Z and timeBodyGyroscope-std()-X, -Y, -Z; Gyroscope indicates that the signal was captured with the smartphone gyroscope  
+
+Signal based on the gravity
+timeGravityAccelerometer-mean()-X, -Y, -Z
+timeGravityAccelerometer-std()-X, -Y, -Z
+
+__2- Frequency domain varibles begin with "frequency":__  
+
+
+
 ## 3. Transformation
 1- Merges the training and the test sets to create one data set.
 2- Extracts only the measurements on the mean and standard deviation for each measurement.
