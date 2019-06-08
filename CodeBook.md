@@ -29,13 +29,14 @@ After transformations to clean up the data, a final dataset was stored in the **
 
 ## 2. Variables in the final dataset (tidy_data.txt)
 **subject** Numeric subject identification, from 1 to 30.
+
 **activity** Type of activity performed by each subject:
-WALKING: subject was walking
-WALKING_UPSTAIRS: subject was walking upstairs
-WALKING_DOWNSTAIRS: subject was walking downstairs
-SITTING: subject was sitting
-STANDING: subject was standing
-LAYING: sugjects was laying
+- WALKING: subject was walking  
+- WALKING_UPSTAIRS: subject was walking upstairs  
+- WALKING_DOWNSTAIRS: subject was walking downstairs  
+- SITTING: subject was sitting  
+- STANDING: subject was standing  
+- LAYING: sugjects was laying  
 
 ## 3. Transformation
 1- Merges the training and the test sets to create one data set.
