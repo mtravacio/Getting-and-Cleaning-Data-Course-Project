@@ -10,14 +10,10 @@ Using its embedded accelerometer and gyroscope, we captured 3-axial linear accel
 The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 Project steps:
-
-1- Data from training and test sets were merged to create one data set.
-
-2- Measurements on the mean and standard deviation for each measurement were extracted
-
-3- Activities and variables were appropriately named.
-
-4- A final dataset with the average of each variable for each activity and each subject was created.
+- Data from training and test sets were merged to create one data set.  
+- Measurements on the mean and standard deviation for each measurement were extracted.  
+- Activities and variables were appropriately named.  
+- A final dataset with the average of each variable for each activity and each subject was created.  
 
 This repository contains the following files:
 
