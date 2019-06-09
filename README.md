@@ -15,7 +15,7 @@ The obtained dataset were randomly partitioned into two sets, where 70% of the v
 - Training and test sets were merged to create one dataset using rbind() and cbind().  
 - Measurements on the mean and standard deviation for each measurement were extracted.  
 - Activities and variables were properly named in the dataset and special characters were removed using gsub().  
-- A final tidy dataset with the average of each variable for each activity and each subject was created and saved as “tidy_data.txt”.  
+- A final tidy dataset with the average of each variable for each activity and each subject was created with write.table() using row.name=FALSE, and saved as “tidy_data.txt”.  
   
 This project was completed with Windows 10 x64 version 1803 (2018-07-10), R version 3.6.0 (2019-04-26), and dplyr package version 0.8.0.1
 
