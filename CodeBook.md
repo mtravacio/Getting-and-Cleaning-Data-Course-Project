@@ -70,10 +70,17 @@ Variables are either the mean of the original values, expressed as "mean" or the
 - frequencyBodyAccelerometer-mean-X, -Y, -Z and frequencyBodyAccelerometer-standardDeviation-X, -Y, -Z  
 - frequencyBodyAccelerometerJerk-mean-X, -Y, -Z and frequencyBodyAccelerometerJerk-standardDeviation-X, -Y, -Z  
 - frequencyBodyGyroscope-mean-X, -Y, -Z and frequencyBodyGyroscope-standardDeviation-X, -Y, -Z  
+- frequencyBodyAccelerometer-meanFrequency-X, -Y, -Z  
+- frequencyBodyAccelerometerJerk-meanFrequency-X, -Y, -Z  
+- frequencyBodyGyroscope-meanFrequency-X, -Y, -Z  
 - frequencyBodyAccelerometerMagnitude-mean and frequencyBodyAccelerometerMagnitude-standardDeviation  
 - frequencyBodyAccelerometerJerkMagnitude-mean and frequencyBodyAccelerometerJerkMagnitude-standardDeviation  
 - frequencyBodyGyroscopeMagnitude-mean and frequencyBodyGyroscopeMagnitude-standardDeviation  
-- frequencyBodyGyroscopeJerkMagnitude-mean and frequencyBodyGyroscopeJerkMagnitude-standardDeviation
+- frequencyBodyGyroscopeJerkMagnitude-mean and frequencyBodyGyroscopeJerkMagnitude-standardDeviation  
+- frequencyBodyAccelerometerMagnitude-meanFrequency  
+- frequencyBodyAccelerometerJerkMagnitude-meanFrequency  
+- frequencyBodyGyroscopeMagnitude-meanFrequency  
+- frequencyBodyGyroscopeJerkMagniture-meanFrequency
 
 
 ## 3. Transformation
