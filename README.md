@@ -11,10 +11,14 @@ Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 
 The obtained dataset were randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 ## Project steps
-- Data from training and test sets were merged to create one data set.  
+- Original data was downloaded and unziped. Data was read using read.table().  
+- Training and test sets were merged to create one dataset using rbind() and cbind().  
 - Measurements on the mean and standard deviation for each measurement were extracted.  
-- Activities and variables were appropriately named.  
-- A final dataset with the average of each variable for each activity and each subject was created.  
+- Activities and variables were properly named in the dataset and special characters were removed using gsub().  
+- A final tidy dataset with the average of each variable for each activity and each subject was created and saved as “tidy_data.txt”.  
+  
+This project was completed with Windows 10 x64 version 1803 (2018-07-10), R version 3.6.0 (2019-04-26), and dplyr package version 0.8.0.1
+
 
 ## This repository contains the following files
 - **README.md:** Provides an overview of Getting and cleaning data Course project  
