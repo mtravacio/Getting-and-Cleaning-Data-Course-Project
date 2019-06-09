@@ -51,36 +51,36 @@ Variables are either the mean of the original values, expressed as "mean" or the
 
 #### 1- Time domain variables begin with "time":  
 **Signal based on the body of the participant:**  
-- timeBodyAccelerometer-mean-X, -Y, -Z and timeBodyAccelerometer-standardDeviation-X, -Y, -Z  
-- timeBodyAccelerometerJerk-mean-X, -Y, -Z and timeBodyAccelerometerJerk-standardDeviation-X, -Y, -Z  
-- timeBodyGyroscope-mean-X, -Y, -Z and timeBodyGyroscope-standardDeviation-X, -Y, -Z  
-- timeBodyGyroscopeJerk-mean-X, -Y, -Z and timeBodyGyroscopeJerk-standardDeviation-X, -Y, -Z  
-- timeBodyAccelerometerMagnitude-mean  and timeBodyAccelerometerMagnitude-standardDeviation  
-- timeBodyAccelerometerJerkMagnitude-mean and timeBodyAccelerometerJerkMagnitude-standardDeviation  
-- timeBodyGyroscopeMagnitude-mean and timeBodyGyroscopeMagnitude-standardDeviation  
-- timeBodyGyroscopeJerkMagnitude-mean and timeBodyGyroscopeJerkMagnitude-standardDeviation  
+- timeBodyAccelerometerMeanX, Y, Z and timeBodyAccelerometerStandardDeviationX, Y, Z  
+- timeBodyAccelerometerJerkMeanX, Y, Z and timeBodyAccelerometerJerkStandardDeviationX, Y, Z  
+- timeBodyGyroscopeMeanX, Y, Z and timeBodyGyroscopeStandardDeviationX, Y, Z  
+- timeBodyGyroscopeJerkMeanX, Y, Z and timeBodyGyroscopeJerkStandardDeviationX, Y, Z  
+- timeBodyAccelerometerMagnitudeMean and timeBodyAccelerometerMagnitudeStandardDeviation  
+- timeBodyAccelerometerJerkMagnitudeMean and timeBodyAccelerometerJerkMagnitudeStandardDeviation  
+- timeBodyGyroscopeMagnitudeMean and timeBodyGyroscopeMagnitudeStandardDeviation  
+- timeBodyGyroscopeJerkMagnitudeMean and timeBodyGyroscopeJerkMagnitudeStandardDeviation  
 
 **Signal based on the gravity**  
-- timeGravityAccelerometer-mean-X, -Y, -Z  and  timeGravityAccelerometer-standardDeviation-X, -Y, -Z  
-- timeGravityAccelerometerMagnitude-mean and timeGravityAccelerometerMagnitude-standardDeviation  
+- timeGravityAccelerometerMeanX, Y, Z and timeGravityAccelerometerStandardDeviationX, Y, Z  
+- timeGravityAccelerometerMagnitudeMean and timeGravityAccelerometerMagnitudeStandardDeviation  
   
 
   
 #### 2- Frequency domain variables begin with "frequency":  
-- frequencyBodyAccelerometer-mean-X, -Y, -Z and frequencyBodyAccelerometer-standardDeviation-X, -Y, -Z  
-- frequencyBodyAccelerometerJerk-mean-X, -Y, -Z and frequencyBodyAccelerometerJerk-standardDeviation-X, -Y, -Z  
-- frequencyBodyGyroscope-mean-X, -Y, -Z and frequencyBodyGyroscope-standardDeviation-X, -Y, -Z  
-- frequencyBodyAccelerometer-meanFrequency-X, -Y, -Z  
-- frequencyBodyAccelerometerJerk-meanFrequency-X, -Y, -Z  
-- frequencyBodyGyroscope-meanFrequency-X, -Y, -Z  
-- frequencyBodyAccelerometerMagnitude-mean and frequencyBodyAccelerometerMagnitude-standardDeviation  
-- frequencyBodyAccelerometerJerkMagnitude-mean and frequencyBodyAccelerometerJerkMagnitude-standardDeviation  
-- frequencyBodyGyroscopeMagnitude-mean and frequencyBodyGyroscopeMagnitude-standardDeviation  
-- frequencyBodyGyroscopeJerkMagnitude-mean and frequencyBodyGyroscopeJerkMagnitude-standardDeviation  
-- frequencyBodyAccelerometerMagnitude-meanFrequency  
-- frequencyBodyAccelerometerJerkMagnitude-meanFrequency  
-- frequencyBodyGyroscopeMagnitude-meanFrequency  
-- frequencyBodyGyroscopeJerkMagniture-meanFrequency
+- frequencyBodyAccelerometerMeanX, Y, Z and frequencyBodyAccelerometerStandardDeviationX, Y, Z  
+- frequencyBodyAccelerometerJerkMeanX, Y, Z and frequencyBodyAccelerometerJerkStandardDeviationX, Y, Z  
+- frequencyBodyGyroscopeMeanX, Y, Z and frequencyBodyGyroscopeStandardDeviationX, Y, Z  
+- frequencyBodyAccelerometerMeanFrequencyX, Y, Z  
+- frequencyBodyAccelerometerJerkMeanFrequencyX, Y, Z  
+- frequencyBodyGyroscopeMeanFrequencyX, Y, Z  
+- frequencyBodyAccelerometerMagnitudeMean and frequencyBodyAccelerometerMagnitudeStandardDeviation  
+- frequencyBodyAccelerometerJerkMagnitudeMean and frequencyBodyAccelerometerJerkMagnitudeStandardDeviation  
+- frequencyBodyGyroscopeMagnitudeMean and frequencyBodyGyroscopeMagnitudeStandardDeviation  
+- frequencyBodyGyroscopeJerkMagnitudeMean and frequencyBodyGyroscopeJerkMagnitudeStandardDeviation  
+- frequencyBodyAccelerometerMagnitudeMeanFrequency  
+- frequencyBodyAccelerometerJerkMagnitudeMeanFrequency  
+- frequencyBodyGyroscopeMagnitudeMeanFrequency  
+- frequencyBodyGyroscopeJerkMagnitureMeanFrequency
 
 
 ## 3. Transformation
