@@ -38,12 +38,14 @@ After transformations to clean up the data, a final dataset was stored in the **
 - STANDING: subject was standing  
 - LAYING: sugjects was laying  
 
-The original dataset contained coded variable names that were relabeled to made their names more descriptive.
+The original dataset contained coded variable names that were relabeled to made their names more descriptive.  
 Features were normalized and bounded within [-1,1]. 
-Variables are either the mean of the original values, expressed as "mean" or the standard deviation, expressed as "standardDeviation".  
+"Accelerometer" indicates that the signal was captured with the smartphone accelerometer. The units used for the accelerations (total and body) were 'g's (gravity of earth -> 9.80665 m/seg2).  
+"Body" acceleration signal was obtained by subtracting the gravity from the total acceleration.  
+"Gyroscope" indicates that the signal was captured with the smartphone gyroscope; the gyroscope units are rad/seg.  
+"Jerk" is the rate of change of acceleration and it would indicate a sudden movement of the subject.  
 Some measurements are provied in a 3 axial model: -X, -Y, -Z.  
-"Jerk" is the rate of change of acceleration and it would indicate a sudden movement of the subject  
-"Gyroscope" indicates that the signal was captured with the smartphone gyroscope; the gyroscope units are rad/seg.  Similarly, "Accelerometer" indicates that the signal was captured with the smartphone accelerometer. The units used for the accelerations (total and body) were 'g's (gravity of earth -> 9.80665 m/seg2).
+Variables are either the mean of the original values, expressed as "mean" or the standard deviation, expressed as "standardDeviation".  
  
 
 #### 1- Time domain variables begin with "time":  
