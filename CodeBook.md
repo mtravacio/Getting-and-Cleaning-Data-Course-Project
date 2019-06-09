@@ -84,9 +84,10 @@ Variables are either the mean of the original values, expressed as "mean" or the
 
 
 ## 3. Transformation
-1- Merges the training and the test sets to create one data set.  
-2- Extracts only the measurements on the mean and standard deviation for each measurement.  
-3- Uses descriptive activity names to name the activities in the data set.  
-4- Appropriately labels the data set with descriptive variable names.  
-5- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
-Windows 10 x64 version 1803 (2018-07-10), R version 3.6.0 (2019-04-26), dplyr package version 0.8.0.1
+Original data was downloaded and unziped. Data was read using read.table().  
+The training and the test sets were merged to create one dataset using rbind() and cbind().  
+Measurements on the mean and standard deviation for each measurement were extracted.  
+Descriptive variable names were used to name the activities in the dataset  and special characters were removed using gsub().  
+A final tidy data set with the average of each variable for each activity and each subject was created and saved as “tidy_data.txt”.  
+  
+This project was completed with Windows 10 x64 version 1803 (2018-07-10), R version 3.6.0 (2019-04-26), and dplyr package version 0.8.0.1
