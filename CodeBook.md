@@ -40,11 +40,12 @@ After transformations to clean up the data, a final dataset was stored in the **
 
 The original dataset contained coded variable names that were relabeled to made their names more descriptive.  
 Features were normalized and bounded within [-1,1]. 
+Some measurements are provied in as -X, -Y, -Z (used to denote 3-axial signals in the X, Y and Z directions).  
 "Accelerometer" indicates that the signal was captured with the smartphone accelerometer. The units used for the accelerations (total and body) were 'g's (gravity of earth -> 9.80665 m/seg2).  
 "Body" acceleration signal was obtained by subtracting the gravity from the total acceleration.  
 "Gyroscope" indicates that the signal was captured with the smartphone gyroscope; the gyroscope units are rad/seg.  
-"Jerk" is the rate of change of acceleration and it would indicate a sudden movement of the subject.  
-Some measurements are provied in a 3 axial model: -X, -Y, -Z.  
+"Jerk" is the rate of change of acceleration and it would indicate a sudden movement of the subject. Body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  
+"Magnitude" these three-dimensional signals were calculated using the Euclidean norm.  
 Variables are either the mean of the original values, expressed as "mean" or the standard deviation, expressed as "standardDeviation".  
  
 
@@ -80,4 +81,5 @@ Variables are either the mean of the original values, expressed as "mean" or the
 2- Extracts only the measurements on the mean and standard deviation for each measurement.
 3- Uses descriptive activity names to name the activities in the data set
 4- Appropriately labels the data set with descriptive variable names.
-5- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+5- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
+Windows 10 x64 version 1803 (2018-07-10), R version 3.6.0 (2019-04-26), dplyr package version 0.8.0.1
